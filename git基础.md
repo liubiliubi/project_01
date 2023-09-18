@@ -18,7 +18,14 @@ git status -s
 // git add 有三个功能 ① 可以开始跟踪新文件 ② 把以跟踪的、且以修改的文件放到暂存区 ③ 把有冲突的文件标记为已解决状态
 git add
 
+// git add . 将多个文件加入暂存区
+git add .
+
 // git commit -m "提交消息" 将暂存区中的文件的快照，提交到Git仓库中进行保存
+git commit -m "提交消息"
+
+// git reset HEAD 要移除的文件名称 将暂存区的文件移除
+git reset HEAD .
 ```
 ## 文件的四种状态
 
