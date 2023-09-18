@@ -26,6 +26,10 @@ git commit -m "提交消息"
 
 // git reset HEAD 要移除的文件名称 将暂存区的文件移除
 git reset HEAD .
+
+// git commit -a -m "提交消息" 直接是工作区->Git仓库
+git commit -a -m "提交消息"
+
 ```
 ## 文件的四种状态
 
