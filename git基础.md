@@ -24,6 +24,9 @@ git add .
 // git commit -m "提交消息" 将暂存区中的文件的快照，提交到Git仓库中进行保存
 git commit -m "提交消息"
 
+// git checkout -- 文件名称 撤销对文件的修改 危险系数极高！
+git checkout -- 文件名称
+
 // git reset HEAD 要移除的文件名称 将暂存区的文件移除
 git reset HEAD .
 
@@ -34,8 +37,6 @@ git commit -a -m "提交消息"
 // git rm --cashed 文件 只移除Git仓库中的对应文件
 git rm -f 文件
 git rm --cashed
-
-
 ```
 ## 文件的四种状态
 
