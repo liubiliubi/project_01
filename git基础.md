@@ -30,6 +30,12 @@ git reset HEAD .
 // git commit -a -m "提交消息" 直接是工作区->Git仓库
 git commit -a -m "提交消息"
 
+// git rm -f 文件 从工作区和Git仓库中同时移除对应文件
+// git rm --cashed 文件 只移除Git仓库中的对应文件
+git rm -f 文件
+git rm --cashed
+
+
 ```
 ## 文件的四种状态
 
