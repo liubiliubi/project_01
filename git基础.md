@@ -37,6 +37,14 @@ git commit -a -m "提交消息"
 // git rm --cashed 文件 只移除Git仓库中的对应文件
 git rm -f 文件
 git rm --cashed
+
+// git log 查看提交历史
+git log -2 // 两条
+
+// git log -- pretty=oneline
+// git reset --hard <CommitID> 根据ID 回退到指定版本
+// git reflog --pretty=oneline 在旧版本中查看命令操作的历史
+// git reset --hard <CommitID>
 ```
 ## 文件的四种状态
 
